@@ -1,10 +1,6 @@
 [submodule "mast3r"]
 	path = mast3r
 	url = https://github.com/Bin-ze/mast3r.git
-
-[submodule "dust3r"]
-    path = dust3r
-    url = https://github.com/Bin-ze/dust3r.git
 	
 [submodule "gaussian-splatting"]
     path = gaussian-splatting
