@@ -8,6 +8,14 @@ This is a personal project to implement gaussian-splatting without using sfm
 - [ ] Interactive design: visual training process and map display
 - [ ] Added currently open source robust 3dgs optimization methods to improve scene representation
 
+
+## get start
+
+
+### Environment Configuration
+
+Please refer to [mast3r](https://github.com/naver/mast3r) and [Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting)
+
 ## Comparative Test with colmap-free 3d-gs in Tanks Dataset
 | Tanks scenes | focal |
 | --- | --- | 
@@ -19,12 +27,6 @@ This is a personal project to implement gaussian-splatting without using sfm
 |Francis|597.12|
 |Ignatius|593.98|
 |Museum|593.30|
-
-## get start
-
-### Environment Configuration
-
-Please refer to [mast3r](https://github.com/naver/mast3r) and [Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting)
 
 ### run
 
@@ -68,6 +70,15 @@ CUDA_VISIBLE_DEVICES=0 python train_sfmfree.py -s data/Tanks/Museum -m output/Ta
 | Ballroom | 34.6704597  | 0.9710099   | 0.0356095  | 0.033 |0.094 | 0.001 |
 | Francis | 34.0897827   | 0.9321958  | 0.1348356 | 0.007 | 0.022 | 0.001 |
 | Ignatius | 29.2164097 | 0.9224545  | 0.0969569 | 0.168 | 0.258 | 0.009 |
+
+### visualization
+#### example house
+* gt / pred
+![gt/pred](./assert/000310_gt_pred_image.jpg)
+![gt/pred](./assert/000310_gt_pred_depth.jpg)
+
+* track 
+![track](./assert/pose_vis.png)
 
 
 ## Reference Implementation
