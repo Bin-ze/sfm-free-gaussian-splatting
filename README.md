@@ -1,4 +1,8 @@
 # sfm-free-gaussian-splatting
+https://github.com/user-attachments/assets/e41944d4-1c14-4db0-84f8-6423b9399331
+
+https://github.com/user-attachments/assets/abe993cd-5eb7-4ca6-8a3f-651f9a922a99
+
 This is a personal project to implement gaussian-splatting without using sfm
 ## TODO
 - [x] Implementing visual odometry based on dust3r for coarse estimating camera pose
